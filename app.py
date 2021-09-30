@@ -29,6 +29,7 @@ def after_request(response):
 
 @app.route('/', methods=["POST", "GET"])
 def index():
+    
     return render_template("index.html")
 
 
